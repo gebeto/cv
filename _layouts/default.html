@@ -39,27 +39,27 @@
     
     <div>
       <h2>Experience</h2>
-      {% for project in site.data.projects %}
-        <div class="project no-break">
+      {% for experience in site.data.experiences %}
+        <div class="experience no-break">
           <h4 class="title">
-            <span>{{ project.time_range }}</span>
+            <span>{{ experience.time_range }}</span>
             &nbsp;&mdash;&nbsp;
             <small>
               <small>
-                {% if project.company.url %}
-                  <a target="_blank" href="{{ project.company.url }}">{{ project.company.title }}</a>
+                {% if experience.company.url %}
+                  <a target="_blank" href="{{ experience.company.url }}">{{ experience.company.title }}</a>
                 {% else %}
-                  {{ project.company.title }}
+                  {{ experience.company.title }}
                 {% endif %}
               </small>
             </small>
           </h4>
-          <p><strong>Project Description:</strong> {{ project.description }}</p>
-          <p><strong>Role:</strong> {{ project.role }}</p>
+          <p><strong>Project Description:</strong> {{ experience.description }}</p>
+          <p><strong>Role:</strong> {{ experience.role }}</p>
           <p>
             <strong>Responsibilities:</strong>
             <ul class="responsibilities">
-              {% for responsibility in project.responsibilities %}
+              {% for responsibility in experience.responsibilities %}
                 <li>{{ responsibility }}</li>
               {% endfor %}
             </ul>
