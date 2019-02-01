@@ -34,35 +34,39 @@
   <div class="content">
     <h2>Summary</h2>
     <p>{{ site.data.summary }}</p>
-
-    <h2>Experience</h2>
-    {% for project in site.data.projects %}
-      <div class="project">
-        <h4 class="title">{{ project.time_range }} {{ project.company }}</h4>
-        <p><strong>Project Description:</strong> {{ project.description }}</p>
-        <p><strong>Role:</strong> {{ project.role }}</p>
-        <p>
-          <strong>Responsibilities:</strong>
-          <ul class="responsibilities">
-            {% for responsibility in project.responsibilities %}
-              <li>{{ responsibility }}</li>
-            {% endfor %}
-          </ul>
-        </p>
-      </div>
-    {% endfor %}
-
-    <h2>Competencies</h2>
-    <table class="competencies">
-      <tbody>
-        {% for competency in site.data.competencies %}
-        <tr>
-          <td>{{ competency.title }}</td>
-          <td>{{ competency.items | join: ", " }}</td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
+    
+    <div>
+      <h2>Experience</h2>
+      {% for project in site.data.projects %}
+        <div class="project no-break">
+          <h4 class="title">{{ project.time_range }} {{ project.company }}</h4>
+          <p><strong>Project Description:</strong> {{ project.description }}</p>
+          <p><strong>Role:</strong> {{ project.role }}</p>
+          <p>
+            <strong>Responsibilities:</strong>
+            <ul class="responsibilities">
+              {% for responsibility in project.responsibilities %}
+                <li>{{ responsibility }}</li>
+              {% endfor %}
+            </ul>
+          </p>
+        </div>
+      {% endfor %}
+    </div>
+    
+    <div calss="no-break">
+      <h2>Competencies</h2>
+      <table class="competencies">
+        <tbody>
+          {% for competency in site.data.competencies %}
+          <tr>
+            <td>{{ competency.title }}</td>
+            <td>{{ competency.items | join: ", " }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
 
   </div>
 
