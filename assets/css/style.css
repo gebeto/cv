@@ -78,3 +78,7 @@ ul {
     margin: 0; }
   .content .responsibilities li {
     margin: 3px; }
+  .content .project {
+    padding-bottom: 20px; }
+    .content .project:last-child {
+      padding-bottom: 0; }
