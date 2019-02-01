@@ -1,0 +1,51 @@
+[
+	{
+		"title": "Programming languages",
+		"items": ["Java"],
+	}, {
+		"title": "Automation testing tools and frameworks",
+		"items": [
+			"Selenium WebDriver",
+			"Serenity",
+			"Selenide Rest Assured",
+			"SoapUI",
+			"Log4J",
+			"SLF4J",
+			"Automation testing tools and",
+			"TestNG",
+			"Junit",
+			"BrowserStack",
+			"Appium"
+		],
+	}, {
+		"title": "Logging and Reporting",
+		"items": ["123123", "123123"],
+	}, {
+		"title": "Databases",
+		"items": ["MongoDB", "MySQL"],
+	}, {
+		"title": "Version Control Systems",
+		"items": ["Git"],
+	}, {
+		"title": "Task/issue tracking systems, test case management systems",
+		"items": ["Jira", "TestRail"],
+	}, {
+		"title": "Methodologies",
+		"items": ["Agile", "Scrum"],
+	}, {
+		"title": "Other tools and technologies",
+		"items": [
+			"SonarLint",
+			"FindBug",
+			"IntelliJ IDEA",
+			"Spring",
+			"RestTemplate",
+			"JSoup",
+			"WinSCP",
+			"Putty Apache POI",
+			"Apache Tika",
+			"Apache Storm"
+		],
+	}
+]
+
