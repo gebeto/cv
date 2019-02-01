@@ -1,0 +1,21 @@
+{
+	"name": "Yaroslav Nychkalo",
+	"description": "Software Developer",
+	"links": [
+		{
+			"title": "linkedin.com/in/slavik-nychkalo-57452a127",
+			"link": "https://linkedin.com/in/slavik-nychkalo-57452a127",
+			"icon": "images/linkedin.svg",
+		},
+		{
+			"title": "github.com/gebeto",
+			"link": "https://github.com/gebeto",
+			"icon": "images/github.svg",
+		},
+		{
+			"title": "slavik.nychkalo",
+			"icon": "images/skype.svg",
+			"link": "skype:slavik.nychkalo",
+		},
+	],
+}

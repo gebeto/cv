@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+{% seo %}
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+
+
+
+  <div class="header">
+    <div class="image">
+    </div>
+    <div class="description">
+      <h1>{{ site.data.header.name }}</h1>
+      <h2>{{ site.data.header.description }}</h2>
+      <div class="separator vertical"></div>
+      <ul class="links">
+        {% for link in site.data.header.links %}
+        <li>
+          <img src="{{ link.icon }}" width="18" alt="">
+          <a target="_blank" href="{{ link.link }}">{{ link.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="no-break">
+      <h2>Summary</h2>
+      <p>{{ site.data.summary }}</p>
+    </div>
+    
+    <div>
+      <h2>Experience</h2>
+      {% for experience in site.data.experience %}
+        <div class="experience no-break">
+          <h4 class="title">
+            <span>{{ experience.time_range }}</span>
+            &nbsp;&mdash;&nbsp;
+            <small>
+              <small>
+                {% if experience.company.url %}
+                  <a target="_blank" href="{{ experience.company.url }}">{{ experience.company.title }}</a>
+                {% else %}
+                  {{ experience.company.title }}
+                {% endif %}
+              </small>
+            </small>
+          </h4>
+          <p><strong>Project Description:</strong> {{ experience.description }}</p>
+          <p><strong>Role:</strong> {{ experience.role }}</p>
+          <p>
+            <strong>Responsibilities:</strong>
+            <ul class="responsibilities">
+              {% for responsibility in experience.responsibilities %}
+                <li>{{ responsibility }}</li>
+              {% endfor %}
+            </ul>
+          </p>
+        </div>
+      {% endfor %}
+    </div>
+    
+    <div class="no-break">
+      <h2>Competencies</h2>
+      <table class="competencies cross-table">
+        <tbody>
+          {% for competency in site.data.competencies %}
+          <tr>
+            <td>{{ competency.title }}</td>
+            <td>{{ competency.items | join: ", " }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    
+    <div class="no-break">
+      <h2>Education</h2>
+      {% for edu in site.data.education %}
+      <table class="education cross-table">
+        <tbody>
+          <tr>
+            <td>Year of Study</td>
+            <td>{{ edu.time_range }}</td>
+          </tr>
+          <tr>
+            <td>University</td>
+            <td>{{ edu.university }}</td>
+          </tr>
+          <tr>
+            <td>Major / Faculty</td>
+            <td>{{ edu.faculty }}</td>
+          </tr>
+          <tr>
+            <td>Degree</td>
+            <td>{{ edu.degree }}</td>
+          </tr>
+        </tbody>
+      </table>
+      {% endfor %}
+    </div>
+    
+    <div class="no-break">
+      <h2>Languages</h2>
+      <table class="cross-table">
+        <tbody>
+          {% for language in site.data.languages %}
+          <tr>
+            <td>{{ language.title }}</td>
+            <td>{{ language.level }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+
+
+  </body>
+</html>
