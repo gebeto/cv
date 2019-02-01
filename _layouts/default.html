@@ -41,7 +41,7 @@
       <h2>Experience</h2>
       {% for project in site.data.projects %}
         <div class="project no-break">
-          <h4 class="title">{{ project.time_range }} {{ project.company }}</h4>
+          <h4 class="title"><span>{{ project.time_range }}</span><small>{{ project.company }}</small></h4>
           <p><strong>Project Description:</strong> {{ project.description }}</p>
           <p><strong>Role:</strong> {{ project.role }}</p>
           <p>
