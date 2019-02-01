@@ -68,7 +68,9 @@ body, h1, h2, h3, h4, h5, h6, ul, li, a {
   .content h2 {
     font-size: 2em;
     text-decoration: underline;
-    margin-top: 80px; }
+    margin-top: 80px;
+    margin-bottom: 20px; }
   .content p {
     padding: 0 20px;
-    line-height: 1.4; }
+    line-height: 1.4;
+    margin: 0; }
