@@ -2,7 +2,10 @@
 	{
 		"role": "Senior Software Test Automation Engineer",
 		"time_range": "Jul, 2018 – till now",
-		"company": "Symphony Solutions",
+		"company": {
+			"title": "Symphony Solutions",
+			"url": "https://www.symphony-solutions.eu/"
+		},
 		"description": "Product provides automated compliance control for customers' cloud resources based on customer defined compliance rules, and an ability to easily create, test and manage new rules.",
 		"responsibilities": [
 			"creating automation testing framework from scratch",
@@ -16,7 +19,10 @@
 	{
 		"role": "Senior Software Test Automation Engineer",
 		"time_range": "Jul, 2018 – till now",
-		"company": "Symphony Solutions",
+		"company": {
+			"title": "Symphony Solutions",
+			"url": "https://www.symphony-solutions.eu/"
+		},
 		"description": "Product provides automated compliance control for customers' cloud resources based on customer defined compliance rules, and an ability to easily create, test and manage new rules.",
 		"responsibilities": [
 			"creating automation testing framework from scratch",

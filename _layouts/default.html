@@ -44,7 +44,15 @@
           <h4 class="title">
             <span>{{ project.time_range }}</span>
             &nbsp;&mdash;&nbsp;
-            <small><small>{{ project.company }}</small></small>
+            <small>
+              <small>
+                {% if project.company.url %}
+                  <a href="{{ project.company.url }}">{{ project.company.title }}</a>
+                {% else %}
+                  {{ project.company.title }}
+                {% endif %}
+              </small>
+            </small>
           </h4>
           <p><strong>Project Description:</strong> {{ project.description }}</p>
           <p><strong>Role:</strong> {{ project.role }}</p>
