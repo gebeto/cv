@@ -107,3 +107,7 @@ ul {
       border-bottom: 0; }
   .content .competencies td:first-child {
     width: 30%; }
+  .content .education {
+    margin-bottom: 10px; }
+    .content .education:last-child {
+      margin-bottom: 0; }
