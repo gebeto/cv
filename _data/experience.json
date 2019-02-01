@@ -33,4 +33,21 @@
 			"conducting code review and refactoring",
 		],
 	},
+	{
+		"role": "Senior Software Test Automation Engineer",
+		"time_range": "Jul, 2018 – till now",
+		"company": {
+			"title": "Symphony Solutions",
+			"url": "https://www.symphony-solutions.eu/"
+		},
+		"description": "Product provides automated compliance control for customers' cloud resources based on customer defined compliance rules, and an ability to easily create, test and manage new rules.",
+		"responsibilities": [
+			"creating automation testing framework from scratch",
+			"developing UI tests using Selenide",
+			"developing API tests using Rest Assured",
+			"setting up logging and reporting using Allure and AspectJ",
+			"working on test documentation",
+			"conducting code review and refactoring",
+		],
+	},
 ]
