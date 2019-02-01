@@ -36,15 +36,17 @@ ul {
     justify-content: center;
     flex: 1;
     padding-left: 15px; }
-    .header .description .links li {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      padding-bottom: 7px; }
-      .header .description .links li a {
-        padding-left: 5px;
-        font-size: 14px;
-        line-height: 12px; }
+    .header .description .links {
+      padding: 0; }
+      .header .description .links li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 7px; }
+        .header .description .links li a {
+          padding-left: 5px;
+          font-size: 14px;
+          line-height: 12px; }
     .header .description h1 {
       font-size: 4em; }
     .header .description h2 {
