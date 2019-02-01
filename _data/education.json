@@ -1,5 +1,14 @@
 [
 	{
-		"title": "English",
+		"time_range": "2015 - 2016",
+		"university": "Lviv Polytechnic National University",
+		"faculty": "Software Engeneering (Full-time)",
+		"degree": "Bachelor",
+	},
+	{
+		"time_range": "2016 - till now",
+		"university": "Lviv Polytechnic National University",
+		"faculty": "Software Engeneering (Part-time)",
+		"degree": "Bachelor",
 	}
 ]
