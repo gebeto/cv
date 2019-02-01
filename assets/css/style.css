@@ -7,10 +7,10 @@ body, h1, h2, h3, h4, h5, h6, ul, li, a {
   color: #000; }
 
 @page {
-  size: A3;
   margin: 0;
   -webkit-print-color-adjust: exact;
-  zoom: 85%; }
+  zoom: 85%;
+  scale: 0.8; }
 
 .header {
   display: flex;
