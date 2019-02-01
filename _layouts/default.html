@@ -47,7 +47,7 @@
             <small>
               <small>
                 {% if project.company.url %}
-                  <a href="{{ project.company.url }}">{{ project.company.title }}</a>
+                  <a target="_blank" href="{{ project.company.url }}">{{ project.company.title }}</a>
                 {% else %}
                   {{ project.company.title }}
                 {% endif %}
