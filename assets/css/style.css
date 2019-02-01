@@ -73,10 +73,11 @@ ul {
 
 .content {
   padding: 0 50px; }
+  .content > div {
+    margin-top: 80px; }
   .content h2 {
     font-size: 2em;
     text-decoration: underline;
-    margin-top: 80px;
     margin-bottom: 20px; }
   .content p {
     padding: 0 20px;
