@@ -5,16 +5,16 @@
 		{
 			"title": "linkedin.com/in/slavik-nychkalo-57452a127",
 			"link": "https://linkedin.com/in/slavik-nychkalo-57452a127",
-			"icon": "/images/linkedin.svg",
+			"icon": "images/linkedin.svg",
 		},
 		{
 			"title": "linkedin.com/in/slavik-nychkalo-57452a127",
 			"link": "https://github.com/gebeto",
-			"icon": "/images/github.svg",
+			"icon": "images/github.svg",
 		},
 		{
 			"title": "slavik.nychkalo",
-			"icon": "/images/skype.svg",
+			"icon": "images/skype.svg",
 			"link": "#",
 		},
 	],
