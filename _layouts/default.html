@@ -53,14 +53,14 @@
     {% endfor %}
 
     <h2>Competencies</h2>
-    <table>
+    <table class="competencies">
       <tbody>
-    {% for competency in site.data.competencies %}
+        {% for competency in site.data.competencies %}
         <tr>
           <td>{{ competency.title }}</td>
           <td>{{ competency.items | join: ", " }}</td>
         </tr>
-    {% endfor %}
+        {% endfor %}
       </tbody>
     </table>
 

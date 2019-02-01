@@ -90,6 +90,7 @@ ul {
   .content .competencies {
     border-spacing: 0px; }
     .content .competencies td {
+      padding: 5px;
       border: 1px solid #333; }
       .content .competencies td:first-child {
         border-left: 0; }
