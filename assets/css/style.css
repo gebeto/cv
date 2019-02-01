@@ -82,3 +82,5 @@ ul {
     padding-bottom: 20px; }
     .content .project:last-child {
       padding-bottom: 0; }
+    .content .project .title {
+      font-size: 1.2em; }
