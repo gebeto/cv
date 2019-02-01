@@ -52,6 +52,18 @@
       </div>
     {% endfor %}
 
+    <h2>Competencies</h2>
+    <table>
+      <tbody>
+    {% for competency in site.data.competencies %}
+        <tr>
+          <td>{{ competency.title }}</td>
+          <td>{{ competency.items | join: ", " }}</td>
+        </tr>
+    {% endfor %}
+      </tbody>
+    </table>
+
   </div>
 
 
