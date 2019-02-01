@@ -9,8 +9,7 @@ body, h1, h2, h3, h4, h5, h6, ul, li, a {
 @page {
   margin: 0;
   -webkit-print-color-adjust: exact;
-  zoom: 85%;
-  scale: 0.8; }
+  scale: 0.85; }
 
 .header {
   display: flex;
