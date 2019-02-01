@@ -10,9 +10,40 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <h1>{{ site.username }}</h1>
-    {{ content }}
 
-    <p>{{ site.data }}</p>
+
+
+  <div class="header">
+    <div class="image">
+    </div>
+    <div class="description">
+      <h1>Yaroslav Nychkalo</h1>
+      <h2>Software Developer</h2>
+      <div class="separator vertical"></div>
+      <ul class="links">
+        {% for link in site.data.header.links %}
+        <li>
+          <img src="{{ link.icon }}" width="18" alt="">
+          <a href="{{ link.link }}">{{ link.title }}</a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="content">
+    <h2>Summary</h2>
+    <p>{{ site.data.summary }}</p>
+
+    <h2>Experience</h2>
+    <h4>Jul, 2018 – till now Symphony Solutions</h4>
+    <p>Project Description: Product provides automated compliance control for customers' cloud resources based on customer defined compliance rules, and an ability to easily create, test and manage new rules.</p>
+    <p>Role: Senior Software Test Automation Engineer</p>
+    <p>Responsibilities:</p>
+
+  </div>
+
+
+
   </body>
 </html>
