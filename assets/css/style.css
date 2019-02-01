@@ -98,7 +98,8 @@ ul {
     border-spacing: 0px; }
     .content .competencies td {
       padding: 5px;
-      border: 1px solid #333; }
+      border-bottom: 1px solid #333;
+      border-left: 1px solid #333; }
       .content .competencies td:first-child {
         border-left: 0;
         width: 30%; }
