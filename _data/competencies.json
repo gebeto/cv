@@ -5,18 +5,7 @@
 	}, {
 		"title": "Automation testing tools and frameworks",
 		"items": [
-			"Selenium WebDriver",
-			"Serenity",
-			"Selenide Rest Assured",
-			"SoapUI",
-			"Log4J",
-			"SLF4J",
-			"Automation testing tools and",
-			"TestNG",
-			"Junit",
-			"BrowserStack",
-			"Appium"
-		],
+			"Selenium WebDriver", "Serenity", "Selenide Rest Assured", "SoapUI"],
 	}, {
 		"title": "Logging and Reporting",
 		"items": ["123123", "123123"],
@@ -34,18 +23,7 @@
 		"items": ["Agile", "Scrum"],
 	}, {
 		"title": "Other tools and technologies",
-		"items": [
-			"SonarLint",
-			"FindBug",
-			"IntelliJ IDEA",
-			"Spring",
-			"RestTemplate",
-			"JSoup",
-			"WinSCP",
-			"Putty Apache POI",
-			"Apache Tika",
-			"Apache Storm"
-		],
+		"items": ["SonarLint", "FindBug", "IntelliJ IDEA", "Spring"],
 	}
 ]
 
