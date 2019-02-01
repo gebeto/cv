@@ -85,11 +85,11 @@ ul {
     margin: 0; }
   .content .responsibilities li {
     margin: 3px; }
-  .content .project {
+  .content .experience {
     padding-bottom: 20px; }
-    .content .project:last-child {
+    .content .experience:last-child {
       padding-bottom: 0; }
-    .content .project .title {
+    .content .experience .title {
       font-size: 1.2em;
       display: flex;
       align-items: center;
