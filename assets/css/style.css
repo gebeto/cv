@@ -94,14 +94,15 @@ ul {
       display: flex;
       align-items: center;
       margin-bottom: 5px; }
-  .content .competencies {
+  .content .cross-table {
     border-spacing: 0px; }
-    .content .competencies td {
+    .content .cross-table td {
       padding: 5px;
       border-bottom: 1px solid #333;
       border-left: 1px solid #333; }
-      .content .competencies td:first-child {
-        border-left: 0;
-        width: 30%; }
-      .content .competencies td:last-child {
-        border-right: 0; }
+      .content .cross-table td:first-child {
+        border-left: 0; }
+    .content .cross-table tr:last-child td {
+      border-bottom: 0; }
+  .content .competencies td:first-child {
+    width: 30%; }
