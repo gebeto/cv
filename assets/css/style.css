@@ -87,3 +87,11 @@ ul {
       padding-bottom: 0; }
     .content .project .title {
       font-size: 1.2em; }
+  .content .competencies {
+    border-spacing: 0px; }
+    .content .competencies td {
+      border: 1px solid #333; }
+      .content .competencies td:first-child {
+        border-left: 0; }
+      .content .competencies td:last-child {
+        border-right: 0; }
