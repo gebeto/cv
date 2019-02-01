@@ -38,10 +38,10 @@
     <h2>Experience</h2>
     {% for project in site.data.projects %}
       <h4>{{ project.time_range }} {{ project.company }}</h4>
-      <p>Project Description: {{ project.description }}</p>
-      <p>Role: {{ project.role }}</p>
+      <p><strong>Project Description:</strong> {{ project.description }}</p>
+      <p><strong>Role:</strong> {{ project.role }}</p>
       <p>
-        Responsibilities:
+        <strong>Responsibilities:</strong>
         <ul class="responsibilities">
           {% for responsibility in project.responsibilities %}
             <li>{{ responsibility }}</li>
