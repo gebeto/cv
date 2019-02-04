@@ -7,12 +7,13 @@
 		},
 		"description": "Product provides user friendly interface for sales managers, and an ability to easily create, test and manage new rules.",
 		"responsibilities": [
-			"creating automation testing framework from scratch",
-			"developing UI tests using Selenide",
-			"developing API tests using Rest Assured",
-			"setting up logging and reporting using Allure and AspectJ",
+			"creating parsers for sites",
+			"creating CRM JSON API and documentation for that",
+			"developing new functionality for CRM",
+			"developing utilities to simplify and automatization some kinds of operations",
+			"optimization of UI/UX in CRM",
 			"working on test documentation",
-			"conducting code review and refactoring",
+			"conducting code refactoring",
 		],
 	},
 ]
