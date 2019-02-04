@@ -6,10 +6,10 @@
 	{
 		"title": "Bundlers/Preprocessors/Transpilers/Utilities",
 		"items": [
-			"Webpack", "yarn",
+			"Webpack", "Gulp", "yarn",
 			"TypeScript", "Babel",
-			"Sass", "SCSS", "PostCSS",
-			""
+			"SCSS/Sass", "PostCSS",
+			"Mako", "Jinja", "Liquid", "Pug",
 		],
 	},
 	{
@@ -24,11 +24,8 @@
 	{
 		"title": "Python Frameworks/Libraries",
 		"items": [
-			"BeautifulSoup",
-			"Requests",
-			"Pylons Pyramid",
-			"Deform",
-			"Flask",
+			"BeautifulSoup", "Requests", "virtualenv",
+			"Pylons Pyramid", "Deform", "Flask",
 		],
 	},
 	{
