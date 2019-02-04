@@ -4,12 +4,31 @@
 		"items": ["JavaScript", "Python"],
 	},
 	{
+		"title": "Bundlers/Preprocessors/Transpilers/Utilities",
+		"items": [
+			"Webpack", "yarn",
+			"TypeScript", "Babel",
+			"Sass", "SCSS", "PostCSS",
+			""
+		],
+	},
+	{
 		"title": "JavaScript Frameworks/Libraries",
 		"items": [
 			"React", "Preact",
 			"Redux", "MobX",
 			"Jquery", "Lodash",
 			"Chart.js", "D3.js",
+		],
+	},
+	{
+		"title": "Python Frameworks/Libraries",
+		"items": [
+			"BeautifulSoup",
+			"Requests",
+			"Pylons Pyramid",
+			"Deform",
+			"Flask",
 		],
 	},
 	{
