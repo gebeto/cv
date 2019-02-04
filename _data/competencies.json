@@ -1,29 +1,32 @@
 [
 	{
 		"title": "Programming languages",
-		"items": ["Java"],
-	}, {
-		"title": "Automation testing tools and frameworks",
+		"items": ["JavaScript", "Python"],
+	},
+	{
+		"title": "JavaScript Frameworks/Libraries",
 		"items": [
-			"Selenium WebDriver", "Serenity", "Selenide Rest Assured", "SoapUI"],
-	}, {
-		"title": "Logging and Reporting",
-		"items": ["123123", "123123"],
-	}, {
+			"React", "Preact",
+			"Redux", "MobX",
+			"Jquery", "Lodash",
+			"Chart.js", "D3.js",
+		],
+	},
+	{
 		"title": "Databases",
-		"items": ["MongoDB", "MySQL"],
-	}, {
+		"items": ["PostgreSQL", "MySQL", "MongoDB"]
+	},
+	{
 		"title": "Version Control Systems",
 		"items": ["Git"],
-	}, {
+	},
+	{
 		"title": "Task/issue tracking systems, test case management systems",
-		"items": ["Jira", "TestRail"],
-	}, {
-		"title": "Methodologies",
-		"items": ["Agile", "Scrum"],
-	}, {
+		"items": ["Jira", "Trac"],
+	},
+	{
 		"title": "Other tools and technologies",
-		"items": ["SonarLint", "FindBug", "IntelliJ IDEA", "Spring"],
+		"items": ["Sublime Text 3", "Photoshop", "Sketch"],
 	}
 ]
 
