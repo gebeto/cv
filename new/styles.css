@@ -1,0 +1,128 @@
+body, h1, h2, a, p {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	color: #2c3e50;
+}
+
+ul {
+	margin: 0;
+}
+
+body {
+	/*padding: 1em;*/
+	font-family: Poppins, sans-serif;
+	max-width: 1200px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding-right: 1em;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+}
+
+
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 4em;
+	border-bottom: 3px solid red;
+}
+
+.info {
+	width: 60%;
+}
+
+.info h1 {
+	font-weight: normal;
+	font-size: 3em;
+}
+.info h2 {
+	font-weight: normal;
+	color: #e74c3c;
+}
+
+.contacts {
+	width: 30%;
+	margin: 0;
+	padding: 0;
+}
+
+.contacts li {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	text-align: right;
+	white-space: nowrap;
+	padding: 4px 0px;
+}
+
+.contacts li img {
+	width: 24px;
+	padding-left: 10px;
+}
+
+main {
+	padding: 4em;
+}
+
+
+
+
+/* Section */
+section {
+	
+}
+
+section h2 {
+	font-weight: bold;
+	font-size: 2em;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+/* End Section */
+
+
+
+.experience {
+}
+
+.experience .position {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.experience .company-timerange {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.experience .company-name {
+	font-size: 0.8em;
+	/*width: 100%;*/
+}
+
+.experience .company-name {
+	font-weight: bold;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
